@@ -1,0 +1,50 @@
+[
+  {
+    "id": "ct_001",
+    "title": "Moon Landing Hoax",
+    "category": "Historical / Space",
+    "summary": "The belief that the 1969 Apollo 11 moon landing was staged by NASA and the U.S. government.",
+    "content": "The Moon Landing Hoax theory claims that Apollo 11 and subsequent lunar landings were faked by NASA in a movie studio, often attributed to director Stanley Kubrick. Proponents point to alleged anomalies in photos and footage, such as the absence of stars, fluttering flags in a vacuum, and non-parallel shadows. Mainstream scientists, engineers, and independent retroreflector data have thoroughly debunked these points, confirming that humans did land on the Moon in 1969.",
+    "tags": ["apollo 11", "nasa", "space", "stanley kubrick", "hoax"]
+  },
+  {
+    "id": "ct_002",
+    "title": "Flat Earth Theory",
+    "category": "Science / Cosmology",
+    "summary": "The assertion that Earth is a flat plane or disk encircled by an ice wall, rather than a globe.",
+    "content": "The Flat Earth theory asserts that the Earth is not an oblate spheroid but a flat disc shielded by a dome (firmament), with Antarctica acting as an outer ice ring holding in the oceans. Believers reject satellite imagery, space exploration footage, and fundamental physics like gravity (often replacing it with universal acceleration). The theory relies on skepticism of scientific institutions and visual observations over short distances.",
+    "tags": ["flat earth", "firmament", "antarctica", "cosmology", "pseudoscience"]
+  },
+  {
+    "id": "ct_003",
+    "title": "Chemtrails",
+    "category": "Environment / Public Health",
+    "summary": "The idea that long-lasting condensation trails left by aircraft contain toxic chemical or biological agents.",
+    "content": "The Chemtrail conspiracy theory claims that normal contrails left by high-altitude jet aircraft are actually toxic chemicals, biological agents, or heavy metals sprayed as part of a clandestine government program. Alleged motivations include solar radiation management, weather control, or population control. Atmospheric scientists and environmental agencies explain that persistent contrails are simply frozen water vapor formed under specific humidity and temperature conditions.",
+    "tags": ["chemtrails", "contrails", "aviation", "geoengineering", "public health"]
+  },
+  {
+    "id": "ct_004",
+    "title": "Roswell UFO Incident & Area 51",
+    "category": "Ufology / Government Secrecy",
+    "summary": "The belief that an extraterrestrial spacecraft crashed in Roswell, New Mexico in 1947 and was hidden at Area 51.",
+    "content": "In July 1947, an object crashed near Roswell, New Mexico. While the U.S. military initially announced the recovery of a 'flying disc,' they quickly clarified it was a high-altitude weather balloon (later revealed to be part of top-secret nuclear monitoring effort Project Mogul). Believers maintain that an alien spacecraft and its occupants were recovered and transported to classified military facilities, particularly Area 51 in Nevada, for reverse engineering.",
+    "tags": ["roswell", "area 51", "aliens", "ufos", "extraterrestrial", "government coverup"]
+  },
+  {
+    "id": "ct_005",
+    "title": "Denver International Airport Secret Underground Base",
+    "category": "Urban Legends / New World Order",
+    "summary": "The theory that Denver International Airport hides a massive subterranean headquarters for global elites.",
+    "content": "Denver International Airport (DEN) opened in 1995 and quickly became the subject of numerous theories due to its massive land area, budget overruns, unusual artwork, gargoyles, and dedication plaques referencing a 'New World Airport Commission.' Theories claim the airport covers a vast underground bunker system intended as a fallout shelter or headquarters for global elites or the Illuminati during an apocalypse.",
+    "tags": ["denver airport", "bunkers", "illuminati", "new world order", "architecture"]
+  },
+  {
+    "id": "ct_006",
+    "title": "Phantom Time Hypothesis",
+    "category": "History / Chronology",
+    "summary": "The claim that the Early Middle Ages (AD 614–911) were fabricated and inserted into the calendar.",
+    "content": "Proposed by German historian Heribert Illig in the 1990s, the Phantom Time Hypothesis asserts that the years AD 614 through 911 never occurred, and that the Gregorian calendar was altered to place current events roughly 297 years later than they actually are. Illig claimed that Holy Roman Emperor Charlemagne was a fictional character created by rulers who altered historical documents. Mainstream historians reject the theory, pointing to astronomical records (such as solar eclipses) and archeological timelines across Asia and Europe.",
+    "tags": ["phantom time", "heribert illig", "charlemagne", "calendar", "middle ages"]
+  }
+]
