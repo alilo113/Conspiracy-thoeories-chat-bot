@@ -7,16 +7,15 @@ load_dotenv()
 pc = Pinecone(api_key=os.environ.get("PINECONE_API_KEY"))
 INDEX_NAME = "conspiracy-theories-vector-index"
 
-def vector_search(query_text: str, top_k: int = 3):
+def vector_search(query_text: str):
     """Searches the Pinecone index for chunks semantically matching the query text."""
     index = pc.Index(INDEX_NAME)
 
-    response = index.search_records(
+    # Use index.search with top_k passed as a top-level parameter
+    response = index.search(
         namespace="conspiracy_theories_namespace",
-        query={
-            "top_k": top_k,  # Fixed: changed from 'topk' to 'top_k'
-            "inputs": {"text": query_text}  # Pinecone Integrated Inference expects inputs matching your field map
-        }
+        top_k=3,
+        inputs={"text": query_text}
     )
 
     return response
