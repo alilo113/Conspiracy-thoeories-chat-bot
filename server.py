@@ -1,5 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
+from rag.llm import llm_response
 
 app = FastAPI()
 
@@ -9,8 +10,8 @@ class PromptSchema(BaseModel):
 
 @app.post("/user-prompt")
 def receive_prompt(payload: PromptSchema):
-    # FastAPI automatically ensures 'prompt' exists and is a string
-    prompt = payload.prompt
-    
-    # Your logic here
-    return {"message": "Prompt received", "received_prompt": prompt}
+    try:
+        llm_response(payload.prompt)
+        return {"message": "Prompt processed", "prompt": payload.prompt}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
