@@ -12,18 +12,9 @@ def llm_response(prompt: str):
     print("Sending request to Gemini API...")
     
     # Pass the actual string prompt, not a function object
-    stream = client.interactions.create(
-        model="gemini-3.8-flash",
+    interaction = client.interactions.create(
+        model="gemini-3.6-flash",
         input=prompt,
     )
 
-    print("Stream connected, awaiting chunks...")
-    for event in stream:
-        if hasattr(event, "delta") and event.delta:
-            print(event.delta, end="", flush=True)
-        else:
-            print(event)
-
-if __name__ == "__main__":
-    # Test locally with a hardcoded string prompt
-    llm_response("Explain quantum computing in one sentence.")
+    return interaction.output_text
